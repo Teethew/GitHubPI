@@ -6,11 +6,20 @@
 
 ### Os principais termos abordados serão:
 
+- Repositórios
 -  Git bash
 -  Branches
 - Comandos do Git
-- Repositórios
 
+## Repositórios
+
+Os repositórios são onde estão armazenados os arquivos de cada projeto do GitHub, eles podem parecer meio confusos no começo mas aos poucos vai ficando mais fácil de entendê-los.
+Cada repositório geralmente conta com um arquivo chamado **_README.md_**, que funciona como um arquivo de texto com formatação _Markdown_ que pode ser usado de inúmeras formas e por diversas razões, mas as mais comuns são:
+- Descrever um projeto, desde sua utilidade até sobre as melhores formas de implementação
+- Dar informações sobre o andamento do projeto
+- Listar regras para as pessoas que desejam colaborar para o projeto
+
+###### Nota:  no futuro, eu pretendo detalhar melhor as funcionalidades de um repositório no GitHub, mas por enquanto isso já é o suficiente para quem está atrás do básico
 
 ##  _Git bash_
 É  como um terminal do Git, basicamente o lugar onde você executa linhas de comandos para fazer alterações tanto no seu repositório local quanto _commits_, criações de novas _branches_ e _pushes_.
@@ -45,6 +54,8 @@ Esse recurso possibilita que várias pessoas colaborem em um mesmo projeto de di
 ![Exemplificação do conceito de branches](https://github.com/Teethew/GitHubPI/blob/master/img/Diagrama%20de%20Branches.png?raw=true)
 >Conceito de branches aplicado à uma linha do tempo. (Fonte: draw.io)
  
+## Comandos do Git
+
 ## `git checkout`
 ## `git clone`
 ## `git commit`
@@ -59,13 +70,3 @@ Esse recurso possibilita que várias pessoas colaborem em um mesmo projeto de di
 ### Pra isso, existem duas formas de se realizar esse procedimento:
 - `git init`
 - `git clone`
-
-
-
-
-
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
