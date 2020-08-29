@@ -63,15 +63,29 @@ git checkout -b branchNova
 ```
 ## `git clone`
 "Clona" ou faz o download dos arquivos contidos no repositório **remoto** para o seu repositório **local** (que fica na sua máquina).
+```
+git clone https://github.com/usuario/repositorio
+```
 ## `git commit`
 Envia e comenta suas alterações para o _HEAD_, local de onde serão enviadas para o repositório **remoto** (que fica no seu GitHub) através de um push.
+```
+git commit -m "comentario sobre alterações feitas"
+```
 ## `git init`
-Inicializa um repositório local na pasta atual (vale lembrar que é necessário associar um repositório do GitHub ao repositório local para fazer seus pushes).
+Inicializa um repositório **local** na pasta **atual** (vale lembrar que é necessário associar um repositório do GitHub ao repositório local para fazer seus pushes).
 ## `git merge`
+**Faz uma junção** entre os arquivos situados na **branch atual** com os da **branch de destino** (normalmente a **master**).
 ## `git pull`
+Atualiza seu repositório **local** com os arquivos que estão no repositório **remoto** (é bem comum ter que realizar um **pull** para enviar suas alterações para uma branch se seu repositório **local** não estiver atualizado (ou _up to date_).
 ## `git push`
+Envia as alterações commitadas para o repositório **remoto**, na branch desejada.
+É importante lembrar que antes de realizar um push para um branch que ainda não está no GitHub, você primeiro precisa "publicar" ela, através do seguinte comando:
+```
+git push -u origin suaBranch
+```
+Neste caso o **-u** equivale a `--set-upstream`.
 ## `git status`
-
+Exibe os arquivos prontos para um **push** e os que ainda não foram adicionados ou commitados.
 
 ## Inicializando nosso repositório
 ### Pra isso, existem duas formas de se realizar esse procedimento:
