@@ -5,39 +5,45 @@
 # Glossário 📖  
 
 ### Os principais termos abordados serão:
-- Branches
-- Comandos do Git
+
 -  Git bash
+-  Branches
+- Comandos do Git
 - Repositórios
 
 
-##  Git bash
-É a como um terminal do Git, basicamente o lugar onde você executa linhas de comandos para fazer alterações tanto no seu repositório local quanto commits, criações de novas branches e pushes.
+##  _Git bash_
+É  como um terminal do Git, basicamente o lugar onde você executa linhas de comandos para fazer alterações tanto no seu repositório local quanto _commits_, criações de novas _branches_ e _pushes_.
 
-Para iniciar o bash em alguma pasta do seu computador você pode simplesmente clicar com o lado direito do mouse e escolher a opção de **_Git Bash here_** ou "iniciar Git bash aqui", se você preferir
+Para iniciar o _**bash**_ em alguma pasta do seu computador você pode simplesmente clicar com o lado direito do mouse e escolher a opção de **_Git Bash here_** ou "iniciar Git bash aqui", se você preferir
 
 ![Abrindo o Git bash na pasta desejada](https://github.com/Teethew/GitHubPI/blob/master/img/git%20bash%20here.png?raw=true)
 >Abrindo o Git bash na pasta desejada
 
 Dentro do bash, você pode não só executar comandos relacionados ao Git em si, como também comando básicos de manipulação de arquivos e diretórios, como:
 
-- `cd pastaDestino` - cd ou change directory (mudar diretório) é um comando para mudar o local onde os comandos do bash serão executados. Exemplos de uso:
+- `cd pastaDestino` - _cd_ ou _change directory_ (mudar diretório) é um comando para mudar o local onde os comandos do bash serão executados. Exemplos de uso:
 ```
 cd ../pastaAtual/pastaDestino/projeto
 ```
 > ./ antes refere-se à pasta atual e . ./ antes refere-se à uma pasta acima da atual
 
-- `dir` - dir ou directory exibe os diretórios no local
+- `dir` - *dir* ou *directory* exibe os diretórios no local
 
-- `mkdir nomeDaPasta` - mkdir ou make directory (criar diretório) cria uma pasta com o nome escolhido no local.  
-- `rm nomeDoArquivo` - rm ou remove exclui um arquivo da sua escolha
-- `rmdir nomeDaPasta` - rmdir ou remove directory (remover diretório) exclui a pasta escolhida do local
+- `mkdir nomeDaPasta` - _mkdir_ ou _make directory_ (criar diretório) cria uma pasta com o nome escolhido no local.  
+- `rm nomeDoArquivo` - _rm_ ou _remove_ exclui um arquivo da sua escolha
+- `rmdir nomeDaPasta` - _rmdir_ ou _remove directory_ (remover diretório) exclui a pasta escolhida do local
 
 ![comandos de movimentação de arquivos e diretórios no bash](https://github.com/Teethew/GitHubPI/blob/master/img/cd%20bash.png?raw=true)
 >Exemplo dos comandos sendo executados no terminal do Linux (aposto que você notou a semelhança com o Git Bash no Windows).
 
 Nessa imagem eu naveguei até uma pasta na minha área de trabalho chamada GitHub com o `cd`, listei os diretórios usando `dir`, fiz uma nova pasta chamada teste usando `mkdir teste` e depois a removi usando `rmdir teste` 
 
+## _Branches_
+O conceito de branches durante o desenvolvimento de um projeto pode ser entendido como uma ramificação em uma **linha do tempo**, onde existe a linha **principal** que costuma ser chamada de _**master**_ e suas respectivas **divisões** ou ramificações (branches) que tem por objetivo final enviar alterações feitas separadamente para a linha principal (master).
+Esse recurso possibilita que várias pessoas colaborem em um mesmo projeto de diversos locais do mundo inteiro como uma "equipe", cada uma fazendo pequenas alterações que somadas trazem uma evolução gigantesca para o projeto como um todo.
+![Exemplificação do conceito de branches](https://github.com/Teethew/GitHubPI/blob/master/img/Diagrama%20de%20Branches.png?raw=true)
+>Conceito de branches aplicado à uma linha do tempo. (Fonte: draw.io)
  
 ## `git checkout`
 ## `git clone`
