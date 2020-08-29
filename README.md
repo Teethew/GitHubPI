@@ -6,10 +6,10 @@
 
 ### Os principais termos abordados serão:
 
-- Repositórios
--  Git bash
--  Branches
-- Comandos do Git
+- [Repositórios](https://github.com/Teethew/GitHubPI/blob/master/README.md#reposit%C3%B3rios)
+- [Git bash](https://github.com/Teethew/GitHubPI/blob/master/README.md#git-bash)
+- [Branches](https://github.com/Teethew/GitHubPI/blob/master/README.md#branches)
+- [Comandos do Git](https://github.com/Teethew/GitHubPI/blob/master/README.md#comandos-do-git)
 
 ## Repositórios
 
