@@ -1,4 +1,4 @@
-# Usando Git e GitHub no Projeto Integrador <!--GIT--><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" width="30" height="30"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="30" height="30">
+# Usando Git e GitHub (básico) <!--GIT--><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" width="30" height="30"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="30" height="30">
 
 >Inspirado no lendário .txt do [Daniel Cardoso](https://github.com/daniel-cardoso)
 
