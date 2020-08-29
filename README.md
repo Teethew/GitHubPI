@@ -1,6 +1,6 @@
 # Usando Git e GitHub (básico) <!--GIT--><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" width="30" height="30"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="30" height="30">
 
->Inspirado no lendário .txt do [Daniel Cardoso](https://github.com/daniel-cardoso)
+>Inspirado no lendário .txt do [Daniel Cardoso](https://github.com/daniel-cardoso) e complementado pelo esclarecedor guia do [Roger Dudler](https://github.com/rogerdudler)
 
 # Glossário 📖  
 
@@ -19,12 +19,12 @@ Cada repositório geralmente conta com um arquivo chamado **_README.md_**, que f
 - Dar informações sobre o andamento do projeto
 - Listar regras para as pessoas que desejam colaborar para o projeto
 
-###### Nota:  no futuro, eu pretendo detalhar melhor as funcionalidades de um repositório no GitHub, mas por enquanto isso já é o suficiente para quem está atrás do básico
+###### Nota:  no futuro, eu pretendo detalhar melhor as funcionalidades de um repositório no GitHub, mas por enquanto isso já é o suficiente para quem está atrás do básico.
 
 ##  _Git bash_
 É  como um terminal do Git, basicamente o lugar onde você executa linhas de comandos para fazer alterações tanto no seu repositório local quanto _commits_, criações de novas _branches_ e _pushes_.
 
-Para iniciar o _**bash**_ em alguma pasta do seu computador você pode simplesmente clicar com o lado direito do mouse e escolher a opção de **_Git Bash here_** ou "iniciar Git bash aqui", se você preferir
+Para iniciar o _**bash**_ em alguma pasta do seu computador você pode simplesmente clicar com o lado direito do mouse e escolher a opção de **_Git Bash here_** ou "iniciar Git bash aqui", se você preferir.
 
 ![Abrindo o Git bash na pasta desejada](https://github.com/Teethew/GitHubPI/blob/master/img/git%20bash%20here.png?raw=true)
 >Abrindo o Git bash na pasta desejada
@@ -46,7 +46,7 @@ cd ../pastaAtual/pastaDestino/projeto
 ![comandos de movimentação de arquivos e diretórios no bash](https://github.com/Teethew/GitHubPI/blob/master/img/cd%20bash.png?raw=true)
 >Exemplo dos comandos sendo executados no terminal do Linux (aposto que você notou a semelhança com o Git Bash no Windows).
 
-Nessa imagem eu naveguei até uma pasta na minha área de trabalho chamada GitHub com o `cd`, listei os diretórios usando `dir`, fiz uma nova pasta chamada teste usando `mkdir teste` e depois a removi usando `rmdir teste` 
+Nessa imagem eu naveguei até uma pasta na minha área de trabalho chamada GitHub com o `cd`, listei os diretórios usando `dir`, fiz uma nova pasta chamada teste usando `mkdir teste` e depois a removi usando `rmdir teste` .
 
 ## _Branches_
 O conceito de branches durante o desenvolvimento de um projeto pode ser entendido como uma ramificação em uma **linha do tempo**, onde existe a linha **principal** que costuma ser chamada de _**master**_ e suas respectivas **divisões** ou ramificações (branches) que tem por objetivo final enviar alterações feitas separadamente para a linha principal (master).
@@ -57,9 +57,16 @@ Esse recurso possibilita que várias pessoas colaborem em um mesmo projeto de di
 ## Comandos do Git
 
 ## `git checkout`
+Muda para outra **branch**. Deve ser utilizado junto com um **-b** (build) à direita quando se pretende **criar uma branch nova**.
+```
+git checkout -b branchNova
+```
 ## `git clone`
+"Clona" ou faz o download dos arquivos contidos no repositório **remoto** para o seu repositório **local** (que fica na sua máquina).
 ## `git commit`
+Envia e comenta suas alterações para o _HEAD_, local de onde serão enviadas para o repositório **remoto** (que fica no seu GitHub) através de um push.
 ## `git init`
+Inicializa um repositório local na pasta atual (vale lembrar que é necessário associar um repositório do GitHub ao repositório local para fazer seus pushes).
 ## `git merge`
 ## `git pull`
 ## `git push`
@@ -70,3 +77,13 @@ Esse recurso possibilita que várias pessoas colaborem em um mesmo projeto de di
 ### Pra isso, existem duas formas de se realizar esse procedimento:
 - `git init`
 - `git clone`
+
+
+
+
+
+
+
+
+
+> Written with [StackEdit](https://stackedit.io/).
